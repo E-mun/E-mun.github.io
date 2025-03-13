@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+* {
+    background-color: whitesmoke;
+}
+
+main {
+    margin-left: 9%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px #252525 solid;
+    border-radius: 4px;
+
+}
+
+nav span {
+    margin: 1.5rem;
+    line-height: 1.5rem;
+}
+
+nav span strong {
+    text-decoration: underline;
+}
+
+
+p {
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: justify;
+    max-width: 500px;
+    padding: 4px;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    border-radius: 5px;
+}
+#email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+i {
+    margin-top: 1rem;
+    margin-right: 0.8rem;
 }
