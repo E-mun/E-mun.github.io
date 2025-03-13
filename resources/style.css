@@ -26,8 +26,10 @@ nav span {
 nav span strong {
     text-decoration: underline;
 }
-
-
+a {
+    text-decoration: none;
+    color: black;
+}
 p {
     margin: 1rem 2rem 1rem 2rem;
     text-align: justify;
@@ -37,6 +39,7 @@ p {
     border-left: 1px black solid;
     border-radius: 5px;
 }
+
 #email-container {
     display: flex;
     flex-direction: column;
@@ -46,4 +49,76 @@ p {
 i {
     margin-top: 1rem;
     margin-right: 0.8rem;
+}
+
+h4, h5 {
+    margin: 0.3rem 0.7rem;
+}
+
+/* projects.html specific */
+.project-description {
+    margin-left: 5%
+}
+
+/* skills.html specific */
+#skills-main {
+    margin: 2rem;
+}
+#skills-header {
+    text-align: center;
+}
+
+#skills-container {
+    display: flex;
+    position: relative;
+    left: 12.5%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+
+.skill {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 7%;
+}
+
+.skill-icon {
+    margin: 1.2rem;
+}
+.skill-display {
+    width: auto;
+    margin: 0.5rem 0;
+}
+.skill-name {
+    font-weight: 800;
+}
+.skill-null-box {
+    margin: 0.3rem 0;
+    background-color: rgb(225, 225, 225);
+    border: 1px lightgrey solid;
+    border-radius: 0.3rem;
+}
+.skill-xp-box {
+    margin: 0.3rem 0;
+    border: 1px lightgrey solid;
+    border-radius: 0.3rem;
+}
+
+/* >>SKILL UPDATES<< */
+#HTML5-null {height: 9rem;}
+#HTML5-xp {height: 1rem;
+    background-color: rgb(30, 110, 50);
+}
+
+#CSS-null {height: 9rem;}
+#CSS-xp {height: 1rem;
+    background-color: rgb(30,100,50);
+}
+
+#PYTHON-null {height: 7rem;}
+#PYTHON-xp {height: 3rem;
+    background-color: rgb(60, 140, 80);
 }
